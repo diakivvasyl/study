@@ -1,0 +1,22 @@
+uuid: ba322430-6954-4c80-b002-eed6d9a56a01
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - study
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: study_search
+theme: study
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

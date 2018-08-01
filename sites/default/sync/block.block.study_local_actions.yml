@@ -1,0 +1,20 @@
+uuid: 7177f651-f732-4d35-bfcc-593f60dfc538
+langcode: en
+status: true
+dependencies:
+  theme:
+    - study
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: study_local_actions
+theme: study
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

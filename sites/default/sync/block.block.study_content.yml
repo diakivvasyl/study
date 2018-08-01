@@ -1,0 +1,22 @@
+uuid: 9c575a9c-afae-480d-8467-0e556c27b445
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - study
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: study_content
+theme: study
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

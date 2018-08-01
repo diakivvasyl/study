@@ -1,0 +1,22 @@
+uuid: f535b673-1219-4c71-9d91-9f6900e85e3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - study
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: study_messages
+theme: study
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

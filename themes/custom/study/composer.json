@@ -1,0 +1,13 @@
+{
+    "name": "drupal/study",
+    "description": "Study Bootstrap sub-theme.",
+    "type": "drupal-custom-theme",
+    "license": "GPL-2.0+",
+    "require": {
+        "bower-asset/bootstrap-sass": "^3.3",
+        "drupal/bootstrap": "^3.6",
+        "fxp/composer-asset-plugin": "^1.4",
+        "leafo/scssphp": "^0.6.7"
+    }
+}
+

@@ -13,6 +13,8 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'access wishlist'
   - 'search content'
+  - 'subscribe to newsletters'
   - 'use text format restricted_html'
   - 'view commerce_product'

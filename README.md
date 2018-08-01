@@ -19,7 +19,7 @@ $databases['default']['default'] = [
   'collation' => 'utf8mb4_general_ci',
 ];
 ```
-Create public files directory: `mkdir -m 777 sites/default/files/`
+Create GIT public files directory: `mkdir -m 777 sites/default/files/`
 Create private files directory: `mkdir -m 777 sites/default/files/private`
 Install project
 To generate sub-theme use: `.\theme.sh` 

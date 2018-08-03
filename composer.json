@@ -24,6 +24,7 @@
         "drupal/core": "~8.0",
         "drupal/ctools": "^3.0",
         "drupal/fontawesome": "^2.4",
+        "drupal/login_security": "^1.5",
         "drupal/page_manager": "4.x-dev",
         "drupal/panels": "4.x-dev",
         "drupal/phingdrushtask": "^7.1",

@@ -1,0 +1,38 @@
+uuid: db159673-f37a-485b-8da8-cf9e5e9dec43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ff
+    - node.type.simplenews_issue
+  module:
+    - image
+id: node.simplenews_issue.field_ff
+field_name: field_ff
+entity_type: node
+bundle: simplenews_issue
+label: Ff
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

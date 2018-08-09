@@ -4,9 +4,12 @@ status: true
 dependencies:
   config:
     - field.field.node.simplenews_issue.body
+    - field.field.node.simplenews_issue.field_ff
     - field.field.node.simplenews_issue.simplenews_issue
+    - image.style.thumbnail
     - node.type.simplenews_issue
   module:
+    - image
     - path
     - text
 _core:
@@ -30,6 +33,14 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_ff:
+    weight: 121
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
     region: content
   path:
     type: path
